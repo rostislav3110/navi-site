@@ -1,0 +1,206 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: rgb(46 43 43) !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler  {
+    background-color: #fff;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.tel:hover {
+    color: orange;
+}
+
+/*banner*/
+
+.navi_bunner {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.banner_content {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    background: #00000063;
+}
+
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    color: #C7CC4B;
+}
+
+.text {
+    font-size: 30px;
+    color: #C7CC4B;
+}
+
+/*history*/
+
+.history {
+    padding: 50px 0;
+    background: #0E0016;
+}
+
+.history_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: aqua;
+}
+
+.hist_text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+
+/*players*/
+.players {
+    background-color: #282727;
+    padding: 50px 0;
+}
+
+.block-item {
+    margin-top: 30px;
+}
+
+.image_player {
+    width: 40%;
+    object-fit: cover;
+}
+
+.block_title {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.block_text {
+    color: #fff;
+    font-size: 18px;
+}
+
+/*tournament*/
+
+.tournament {
+    padding: 50px 0;
+    background: #0E0016;
+}
+
+.tour_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.tour_item {
+    width: 40%;
+    padding: 10px;
+    background-color: #000;
+}
+
+.tour_image {
+    width: 100%;
+}
+
+.tour_content {
+    padding: 10px;
+}
+
+.tour_title {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.tour_text {
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.tour_content a {
+    color: rgb(32, 32, 146);
+    text-decoration: none;
+}
+
+.tour_content a:hover {
+    color: orange;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(46 43 43);
+    color: #fff;
+    padding: 40px 0;
+}
+
+.foter_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fot-text  {
+    font-size: 20px;
+}
+
+@media (max-width: 990px) {
+    .tour_block {
+        display: block;
+    }
+
+    .tour_item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
